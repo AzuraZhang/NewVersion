@@ -1,2 +1,6 @@
 Name: Types
 Type: FolderType
+Children:
+- Class: Reference
+  Type: HasComponent
+  Target: g=29c3d94ba8caef8742076107477581d2

@@ -99,3 +99,40 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 110.0
+- Name: NewFolder1
+  Type: ObjectLibraryItem
+  Children:
+  - Name: NewFolder1
+    Type: FolderType
+    Children:
+    - Name: CircularGauge1
+      Id: g=29c3d94ba8caef8742076107477581d2
+      Supertype: CircularGauge
+      ReferenceType: HasComponent
+      Children:
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 0.0
+      - Name: MinValue
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 0.0
+      - Name: MaxValue
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 100.0
+      - Name: WarningZones
+        Type: BaseObjectType
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 210.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 210.0
+    - Name: Object1
+      Type: BaseObjectType
