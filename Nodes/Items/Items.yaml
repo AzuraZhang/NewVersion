@@ -67,3 +67,35 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 110.0
+- Name: Panel11
+  Type: ObjectLibraryItem
+  Children:
+  - Name: Panel11
+    Id: g=85363456dd9855c9de2c446b963c3e1a
+    Supertype: Panel
+    ReferenceType: HasComponent
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: RuntimeNetLogic1
+      Type: NetLogic
+    - Name: TextBox1
+      Type: TextBox
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 110.0

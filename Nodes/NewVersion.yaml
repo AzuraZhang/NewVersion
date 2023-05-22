@@ -29,9 +29,8 @@ Children:
   Type: PropertyGroup
   Children:
   - Name: BranchingEnabled
-    Type: BaseDataVariableType
+    Type: PropertyType
     DataType: Boolean
-    ReferenceType: HasProperty
     Value: false
 - Name: Localization
   Type: PropertyGroup
